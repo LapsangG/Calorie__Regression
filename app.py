@@ -32,4 +32,4 @@ input_data = np.array([[gender_encoded, age, height, weight, duration, heart_rat
 # Predicting
 if st.button("Predict Calories Burned"):
     prediction = model.predict(input_data)
-    st.success(f"🔥 Estimated Calories Burned: **{prediction[0]:.2f}** calories")
+    st.success(f"Estimated Calories Burned: **{prediction[0]:.2f}** calories")
